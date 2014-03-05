@@ -5,7 +5,7 @@ README
 apt-get install lirc liblircclient-dev  
 wget https://github.com/irapp/irxmms2/archive/master.zip  
 unzip master.zip  
-gcc -o irxmms2 -llirc_client irxmms2  
+gcc -o irxmms2 -llirc_client irxmms2.c  
 
 
 2.Update

@@ -33,7 +33,7 @@ int main(int argc, char *argv[])    //argc为命令和命令行参数的总数,a
 
     //初始化连接lircd，如果连接成功，什么都不打印，如果连接失败，则在错误终端返回第二个参数的值(非0)
     //该函数正常返回lircd的socket的文件描述符，错误情况下返回-1
-    if(lirc_init("irmovie",10)==-1) exit(EXIT_FAILURE); 
+    if(lirc_init("irxmms2",10)==-1) exit(EXIT_FAILURE); 
 
     //lirc_readconfig(char *file,struct lirc_config **config,int (check)(char *s));
     //该函数加载配置,可以多次执行以加载多个配置;该函数执行成功返回0，失败返回-1;
